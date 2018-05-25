@@ -1,0 +1,368 @@
+/* FLEXBOX STYLES */
+.flex-container, .navigation-container {
+display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: space-between;
+/*  align-self: center;*/
+}
+
+.flex-container2 {
+display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+}
+
+.cover-container {
+display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+}
+
+.navigation-container {
+ display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+  align-self: center;
+  flex-grow: 100;
+  background-color: black;
+}
+
+.navigation-icon {
+ display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: space-around;
+  align-self: center;
+  flex-grow: 100;
+}
+
+nav {
+background-color: black;
+}
+
+.header-container {
+display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  align-content: space-around;
+  flex-grow: 0.25;
+}
+
+.footer-container {
+  display:flex;
+flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+  align-content: space-between;
+}
+
+/* PSUEDO CLASSES */
+
+a:link {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:visited {
+ color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+color: #fff;
+  text-decoration: none;
+}
+
+/* COVER PAGE */
+
+img {
+width: 100%;
+  height: auto;
+}
+.backdrop2 {
+font-size: 2.5em;
+}
+
+.index-background {
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+background-color: black;
+}
+
+.cover-background {
+  display: flex;
+  flex-grow: 100;
+  font-size: 100%;
+background-color: black;
+  border: solid 2px black;
+  border-radius: 100px;
+  box-shadow: 5px 0 100px;
+}
+
+.header-image2 {
+  display: flex;
+  background-position: center;
+background: black url("images/black-panther1-780x405.jpg") no-repeat center/ cover;
+  padding: 150px 400px;
+  width: auto;
+  min-height: auto;
+ justify-content: center;
+}
+
+/* OTHER IMPORTANT PROPERTIES */
+
+html {
+  font-size: 40px;
+    font-family: arial;
+}
+
+
+body {
+  color: #fff;
+  text-decoration: none;
+background-color: black;
+}
+
+section {
+background-color: teal;
+  padding: 8%;
+  border-radius: 50px;
+  margin: 5%;
+  background-position: top;
+}
+
+aside {
+text-align: center;
+}
+
+/* Navigation */
+
+.navigation-container .navigation-icon {
+  display: flex;
+border: 1em solid black;
+background-color: black;
+  
+    padding: 0;
+  text-align: center;
+  display: inline;
+  margin: 0 0.5em;
+color: white;
+}
+
+/* Header */
+
+.header-image {
+  background-position: center;
+background: black url("images/wakanda-skyline.jpg") no-repeat center/ cover;
+  padding: 150px 400px;
+  width: auto;
+  min-height: auto;
+}
+
+.backdrop {
+background: rgba(0,0,0,0.5);
+  background-position: center;
+    padding: 2rem 8rem;
+  border-radius: 90px 90px;
+  font-size: 100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  width: 200px;
+}
+
+.Recent-works-container {
+}
+
+.cover-background .backdrop {
+background: rgba(0,0,0,0.5);
+  background-position: center;
+    padding: 2rem 8rem;
+  border-radius: 90px 90px;
+  font-size: 100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  width: 200px;
+}
+
+.skillset-container {
+display: flex;
+  flex-direction: row;
+  
+}
+
+.skillset-size {
+  display: flex;
+font-size: 50px;
+  flex-grow: 2;
+}
+
+.h2 {
+font-size: 50px;
+  text-decoration: underline;
+}
+
+/* PORTFOLIO */
+
+.portfolio-content {
+padding: 2rem;
+}
+
+.paragraph-content {
+text-align: center
+}
+
+.bold-title {
+font-weight: bolder;
+  font-size: 1.50em;
+margin: 1em;
+  text-decoration: underline;
+}
+
+/* FOOTER/SOCIAL MEDIA ICONS */
+.footer-container .social-icon {
+  display: flex;
+border: 3em solid black;
+background-color: black;
+  
+    padding: 0;
+  text-align: center;
+  display: inline;
+  margin: 0 -50;
+color: white;
+  margin-top: 2em;
+}
+
+.fa, .fa-facebook, .fa-twitter, .fa-instagram {
+    padding: 30px;
+    font-size: 30px;
+    width: 30px;
+  height: 26px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  background-color: black;
+  border: solid 2px black;
+  box-shadow: 5px 0 100px;
+} 
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: #fff;
+   border: solid 2px black;
+  box-shadow: 5px 0 100px;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/* hover effect */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* MOBILE DRY CLASSES!!! */
+
+
+/* DRY CLASSESS!!! */
+
+  @media all and (max-width: 500px) {
+  .navigation-container .navigation-icon {
+  font-size: 0.4rem;
+  }
+  
+ h1 {
+  font-size: 0.7rem;
+    margin-top: 0.4rem;
+  }
+  
+  .h2 {
+  font-size: 0.4rem;
+  }
+  
+  .header-image {
+width: auto;
+    height: 0px;
+}
+  
+  .backdrop {
+  width: auto;
+    height: 200px;
+    padding: 2rem 4rem;
+    font-size: auto;
+   }
+  
+  .skillset-size {
+  font-size: 13px;
+  }
+  
+  .flex-laptop {
+  max-width: 1200px;
+    max-height: 300px;
+    min-width: 1000px;
+  }
+  
+  article {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    text-align:center;
+  }
+  section {
+  font-size: 0.4rem;
+    padding: 2%;
+      margin: 1%;
+    max-width: auto;
+  }
+  
+  footer {
+  font-size: 0.5rem;
+  }
+  
+  .footer-container .social-icon {
+  margin: -60px 0;
+    border: 0em solid black;
+  margin-top: 0em;
+  }
+  
+  .fa, .fa-facebook, .fa-twitter, .fa-instagram {
+  padding: 10px;
+    margin: 10px;
+  }
+}
